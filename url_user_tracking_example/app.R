@@ -1,5 +1,7 @@
 library(shiny)
 library(shinysurveys)
+library(tidyverse)
+
 ui <- fluidPage(
     tags$head(
         tags$link(rel = "stylesheet", type = "text/css", href = "url_based_user_tracking.css")

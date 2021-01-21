@@ -1,0 +1,12 @@
+name: shinysurveys_user_tracking
+title: shinysurveys_user_tracking
+username:
+account: jdtrat-apps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3499214
+bundleId: 4123943
+url: https://jdtrat-apps.shinyapps.io/shinysurveys_user_tracking/
+when: 1611195080.28551
+asMultiple: FALSE
+asStatic: FALSE
