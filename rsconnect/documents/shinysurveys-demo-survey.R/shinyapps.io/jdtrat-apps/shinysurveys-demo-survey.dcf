@@ -1,0 +1,13 @@
+name: shinysurveys-demo-survey
+title: shinysurveys-demo-survey
+username:
+account: jdtrat-apps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3509665
+bundleId: 4131792
+url: https://jdtrat-apps.shinyapps.io/shinysurveys-demo-survey/
+when: 1611363668.58538
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: R/func_question_ui.R|R/func_survey_server.R|R/utils-misc.R|url_user_tracking_example/app.R|url_user_tracking_example/rsconnect/shinyapps.io/jdtrat-apps/shinysurveys_user_tracking.dcf|url_user_tracking_example/www/url_based_user_tracking.css|shinysurveys-gui
