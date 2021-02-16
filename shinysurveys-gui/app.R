@@ -1,3 +1,6 @@
+source(here::here("R/func_question_ui.R"))
+source(here::here("R/func_survey_server.R"))
+source(here::here("R/utils-misc.R"))
 library(shiny)
 library(shinysurveys)
 library(shinyjs)
@@ -137,7 +140,7 @@ server <- function(input, output, session) {
                        shinyjs::show(id = "options_binding"))
 
       purrr::walk(.x = 1:form$num_questions,
-                  ~ shinysurveys:::delete_questions(input, .x))
+                  ~delete_questions(input, .x))
 
     })
 
